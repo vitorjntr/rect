@@ -1,0 +1,18 @@
+package entities;
+
+public class Rect {
+	public double width;
+	public double heidght;
+
+	public double area() {
+		return width * heidght;
+	}
+	
+	public double perimeter() {
+		return 2 * (width + heidght);
+	}
+	
+	public double diagonal() {
+	return Math.sqrt(heidght * heidght + width * width);
+		}
+}
